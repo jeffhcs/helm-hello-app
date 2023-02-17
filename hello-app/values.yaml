@@ -1,0 +1,11 @@
+appName: hello-app
+
+service:
+  port: 8080
+
+deployment:
+  replicaCount: 1
+  container:
+    image: gcr.io/google-samples/hello-app:2.0 
+    port: 8080
+
