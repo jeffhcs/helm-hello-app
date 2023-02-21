@@ -26,6 +26,7 @@ kind: Service
 metadata:
   name: hello-app
 spec:
+  type: LoadBalancer
   selector:
     app: hello-app
   ports:
